@@ -3,6 +3,9 @@ require 'selenium-webdriver'
 require 'site_prism'
 require 'ostruct'
 require_relative 'page_helper.rb'
+require 'httparty'
+require 'httparty/request'
+require  'httparty/response/headers'
 
 BROWSER = ENV['BROWSER']
 AMBIENTE = ENV['AMBIENTE']
